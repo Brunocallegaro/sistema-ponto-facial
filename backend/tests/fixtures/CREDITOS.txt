@@ -1,0 +1,18 @@
+Imagens de teste
+================
+As imagens faciais desta pasta foram derivadas do "AT&T Database of Faces"
+(antigo "ORL Database of Faces"), AT&T Laboratories Cambridge — imagens de
+voluntários de pesquisa capturadas entre 1992 e 1994, amplamente usadas em
+estudos acadêmicos de reconhecimento facial.
+
+Cortesia de AT&T Laboratories Cambridge.
+
+As imagens originais (92x112, tons de cinza) foram ampliadas 3x e posicionadas
+sobre um fundo neutro de 640x480 para simular um quadro de webcam. As imagens
+"escura", "desfocada", "dois_rostos" e "sem_rosto" foram geradas a partir delas
+para testar as validações de qualidade.
+
+Pares usados nos testes:
+  pessoa_a_cadastro / pessoa_a_reconhecer  -> mesma pessoa, fotos diferentes
+  pessoa_b_cadastro / pessoa_b_reconhecer  -> mesma pessoa, fotos diferentes
+  pessoa_c_nao_cadastrada                  -> pessoa que nunca é cadastrada

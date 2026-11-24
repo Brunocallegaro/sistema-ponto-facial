@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+backend/venv/
+backend/.env
+backend/data/*.db*
+backend/uploads/fotos/*
+!backend/uploads/fotos/.gitkeep
+.pytest_cache/
+# Node
+frontend/node_modules/
+frontend/dist/
